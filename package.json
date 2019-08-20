@@ -1,0 +1,23 @@
+{
+    "name": "inseclab-token-sale",
+    "version": "1.0.0",
+    "description": "InSecLab Token Sale IC0",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "author": "Phu",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    },
+    "dependencies": {
+        "babel-register": "^6.26.0",
+        "dotenv": "^8.1.0",
+        "ganache-cli": "^6.6.0",
+        "truffle-hdwallet-provider": "^1.0.16"
+    }
+}
